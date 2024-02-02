@@ -1,3 +1,5 @@
+import menu from "./data.js";
+
 function Menu() {
     return (
         <>
