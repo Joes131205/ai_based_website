@@ -19,6 +19,15 @@ export default {
                 poppins: ['"Poppins"', "sans-serif"],
                 roboto: ['"Roboto"', "sans-serif"],
             },
+            keyframes: {
+                wiggle: {
+                    "0%, 100%": { transform: "rotate(-3deg)" },
+                    "50%": { transform: "rotate(3deg)" },
+                },
+            },
+            animation: {
+                wiggle: "wiggle 10s ease-in-out infinite",
+            },
         },
     },
     plugins: [],

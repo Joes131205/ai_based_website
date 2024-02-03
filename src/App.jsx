@@ -8,8 +8,8 @@ function App() {
         <>
             <Home />
             <About />
-            {/*<Menu />
-            <Contact />
+            <Menu />
+            {/*<Contact />
             <Footer /> */}
         </>
     );
