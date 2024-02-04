@@ -14,14 +14,17 @@ function Menu() {
         <Item key={item.id} name={item.name} img={item.img} />
     ));
     return (
-        <div className="w-screen h-screen flex flex-col align-middle justify-center text-center gap-10">
-            <h1>Our Menu</h1>
+        <div className="w-screen h-screen flex flex-col items-center justify-center text-center gap-10 my-10">
+            <h1 className="text-4xl font-bold">Our Menu</h1>
+            <h2 className="text-3xl font-bold">Coffee Specialities</h2>
             <div className="flex flex-row flex-wrap gap-20">
                 {coffeeSpecialitiesEl}
             </div>
+            <h2 className="text-3xl font-bold">Teas Specialities</h2>
             <div className="flex flex-row flex-wrap gap-20">
                 {teaSelectionsEl}
             </div>
+            <h2 className="text-3xl font-bold">Sweet Treats</h2>
             <div className="flex flex-row flex-wrap gap-20">
                 {sweetTreatsEl}
             </div>
